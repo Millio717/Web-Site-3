@@ -1,0 +1,66 @@
+// main: ../style.less
+
+.header__intro-photo {
+    position: absolute;
+    top: 0;
+    margin: 0 auto;
+    max-width: 2045px;
+    width: 100%;
+    max-height: 750px;
+    height: 100%;
+}
+.header__wrapper {
+    padding-bottom: 159px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+    padding-top: 45px;
+    
+    @media @desktop {
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    @media @tablet {
+        padding-bottom: 91px;
+    }
+    @media @mobile {
+        padding-bottom: 41px;
+    }
+}
+.header__links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 13px;
+    display: flex;
+    text-transform: uppercase;
+    @media @tablet {
+        display: none;
+
+        
+    }
+}
+.header__link {
+    margin-left: 59px;
+    height: 10px;
+    a {
+    color: #ffffff;
+    }
+}
+.link__logo {
+    display: block;
+    width: 189px;
+    height: 24px;
+    opacity: 100%;
+}
+.burger {
+    display: none;
+    width: 45px;
+    height: 45px;
+
+    @media @tablet {
+        display: block;
+    }
+}
