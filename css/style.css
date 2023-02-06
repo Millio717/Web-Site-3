@@ -270,26 +270,17 @@ img:nth-child(4) {
   display: flex;
   flex-wrap: wrap;
 }
-.about__wrapper-wrapper {
-  max-width: 265px;
-  width: 100%;
+.wrapper__workman {
+  max-width: 293px;
 }
 @media (max-width: 1200px) {
   .about__wrapper-wrapper {
     margin-bottom: 30px;
   }
 }
-@media (max-width: 850px) {
-  .about__wrapper-desktop {
-    margin-right: 0;
-  }
-}
-.about__wrapper-nolast {
-  margin-right: 28px;
-}
 .selfie {
   margin-bottom: 25px;
-  max-width: 270px;
+  max-width: 290px;
   width: 100%;
   max-height: 270px;
   height: 100%;
