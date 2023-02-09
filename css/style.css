@@ -261,6 +261,7 @@ img:nth-child(4) {
 }
 .technology__photos {
   margin-bottom: 101px;
+  border-radius: 21px;
 }
 .about {
   padding-bottom: 101px;
