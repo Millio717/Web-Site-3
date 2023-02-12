@@ -120,6 +120,7 @@ a {
     font-size: 14px;
   }
   .menu-burger__header {
+    left: 150px;
     position: relative;
     width: 40px;
     height: 35px;
@@ -127,13 +128,17 @@ a {
     margin-left: 10px;
     z-index: 1000;
   }
+  .header-nav__wrapper {
+    right: 150px;
+    position: relative;
+  }
   .menu-burger__header span,
   .menu-burger__header:after,
   .menu-burger__header:before {
     height: 3px;
     width: 100%;
     position: absolute;
-    background: #515758;
+    background: #000;
     margin: 0 auto;
   }
   .menu-burger__header span {
