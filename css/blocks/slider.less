@@ -1,8 +1,22 @@
 // main: ../style.less
 
 
-.container_slider_css{margin:50px auto;width:auto;height:737px;overflow:hidden;position:relative;@media @tablet {height: 400px}}
-.photo_slider_css{position:absolute;animation:round 16s infinite;opacity:0;width:100%}
+.container_slider_css{
+    margin: 50px auto;
+    width: auto;
+    height: 737px;
+    overflow: hidden;
+    position: relative;
+    @media @tablet {
+        height: 400px
+    }
+}
+.photo_slider_css {
+    position: absolute;
+    animation: round 16s infinite;
+    opacity: 0;
+    width: 100%
+}
 @keyframes round {
 25%{opacity:1}
 40%{opacity:0}

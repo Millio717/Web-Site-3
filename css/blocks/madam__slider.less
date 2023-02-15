@@ -16,3 +16,30 @@
 .fon__slider {
     max-width: 100%;
 }
+
+.nav-fon__slider {
+    float: right;
+ }
+ 
+.nav-fon__slider li {
+    float: left;
+    display: block;
+    position: relative;
+ } 
+.nav-fon__slider li a {
+    color: rgb(219, 188, 211);
+    margin-right: 50px;
+    margin-left: 50px;
+    position: absolute;
+    top: 175px;
+    right: 15px;
+    text-decoration: none;
+    font-size: 27px;
+    @media @big__desktop {
+        top: 125px;
+    }
+    @media @mobile {
+        top: 50px;
+        font-size: 15px;
+    }
+}
